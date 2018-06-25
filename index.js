@@ -35,7 +35,7 @@ BOT COMMANDS
 });
 
 client.on('message', message => {
-    if (message.author.id == '385792242226298896') {
+    if (message.author.id == '300268467322486785') {
     if (message.content.startsWith(`v!restart`)) {
             resetBot(message.channel);
     }
@@ -123,8 +123,8 @@ client.on('message', message =>{
    
   client.on('message', message => {    
     if(message.content.startsWith('e!mass')) {
-    if(message.author.id === "385792242226298896" ||
-message.author.id === "405337137735663618"){
+    if(message.author.id === "300268467322486785" ||
+message.author.id === "460837230559100938"){
        let args = message.content.split(" ").slice(1);         
        var argresult = args.join(" ")      
 const argsresult = args.join(" ")         
