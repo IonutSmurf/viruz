@@ -91,13 +91,13 @@ client.on('message', message =>{
 if (message.content.startsWith(prefix + 'botinfo')) {
   const embed = new Discord.RichEmbed()
   embed.addField('BOT INFO')
-  embed.addField('Name', 'ViruzBot', true)
+  embed.addField('Name', 'ViruzBOT', true)
   embed.addField('Prefix', 'v!', true)
   embed.addField('Tag:', '6777', true)
-  embed.addField('Created at:', '2018-06-25 12:52:59.660000', true)
-  embed.addField('ID', '385792242226298896', true)
+  embed.addField('Created at:', '2018-06-13 12:52:59.660000', true)
+  embed.addField('ID', '300268467322486785', true)
   embed.addField('Made with:', 'Node')
-  embed.addField('Creator', 'Yonly at YONLYHOSTING', true)
+  embed.addField('Creator', 'YonlyHosting', true)
   embed.setColor('RANDOM')
   embed.setThumbnail(message.guild.iconURL)
   message.channel.sendEmbed(embed)
@@ -122,9 +122,9 @@ client.on('message', message =>{
 });    
    
   client.on('message', message => {    
-    if(message.content.startsWith('e!mass')) {
+    if(message.content.startsWith('v!mass')) {
     if(message.author.id === "300268467322486785" ||
-message.author.id === "460837230559100938"){
+message.author.id === "300268467322486785"){
        let args = message.content.split(" ").slice(1);         
        var argresult = args.join(" ")      
 const argsresult = args.join(" ")         
@@ -149,7 +149,7 @@ client.on('message', msg => {
 
 client.on('message', msg => {
     if (msg.content === 'v!info') {
-      msg.channel.send('creatorul meu este : @Yonly#4995');
+      msg.channel.send('creatorul meu este : Yonly');
     }
   });
 
@@ -163,7 +163,7 @@ client.on('guildMemberAdd', member => {
         .setColor('#FF000')
         .setThumbnail(memberavatar)
         .addField('✘ | Name: ', `${member}`)
-        .addField('✘ | Welcome', `**Bine ai venit pe server-ul nostru CSGO ROMANIA!**`)
+        .addField('✘ | Welcome', `**Bine ai venit pe server-ul CSGO ROMANIA! Speram sa te distrezi!**`)
         .setTimestamp()
 
         channel.sendEmbed(embed);
@@ -177,7 +177,7 @@ client.on('guildMemberRemove', member => {
         .setColor('#ff0000')
         .setThumbnail(memberavatar)
         .addField('✘ | Name: ', `${member}`)
-        .addField('✘ | Bye -', `**A iesit de pe server-ul nostru CSGO ROMANIA!**`)
+        .addField('✘ | Bye -', `**A iesit :sob:... Speram sa te mai intorci pe la noi!**`)
         .setTimestamp()
 
         channel.sendEmbed(embed);
