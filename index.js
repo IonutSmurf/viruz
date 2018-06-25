@@ -95,7 +95,7 @@ if (message.content.startsWith(prefix + 'botinfo')) {
   embed.addField('Prefix', 'v!', true)
   embed.addField('Tag:', '6777', true)
   embed.addField('Created at:', '2018-06-25 12:52:59.660000', true)
-  embed.addField('ID', '456469970600198155', true)
+  embed.addField('ID', '385792242226298896', true)
   embed.addField('Made with:', 'Node')
   embed.addField('Creator', 'Yonly at YONLYHOSTING', true)
   embed.setColor('RANDOM')
